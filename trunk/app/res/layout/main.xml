@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        android:background="@color/light_gray">
+    <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/from"
+            android:layout_alignParentTop="true"
+            android:divider="@color/light_gray"/>
+
+    <RelativeLayout
+            android:id="@+id/from"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical">
+        <EditText android:id="@+id/editText"
+                  android:hint="@string/hint_input"
+                  android:inputType="numberDecimal"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:ems="10"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/calcButton"
+                android:src="@drawable/send"
+                android:drawableTop="@drawable/send"
+                android:layout_toRightOf="@+id/editText" android:layout_alignParentRight="true"
+                android:adjustViewBounds="false" android:scaleType="center" android:singleLine="false"
+                android:layout_alignParentBottom="false"/>
+    </RelativeLayout>
+</RelativeLayout>
+

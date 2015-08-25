@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zcores</string>
+    <string name="hint_input">Type score here..</string>
+    <string name="clear_button_text">Clear</string>
+    <string name="settings_button_text">Settings</string>
+    <string name="about_button_text">About</string>
+    <string name="close_button_text">Close</string>
+    <string name="pref_calculation">Calculation Settings</string>
+    <string name="pref_ideal_score_summary">Specifies de ideal sore achieved</string>
+    <string name="pref_ideal_score_title">Ideal Score</string>
+    <string name="pref_req_per_summary">Required percentage for approval</string>
+    <string name="pref_req_per_title">Requirement Percentage</string>
+    <string name="pref_min_approb_summary">Maximum final score</string>
+    <string name="pref_min_approb_title">Maximum score passing</string>
+    <string name="pref_max_approb_summary">Minimum score reached for approval</string>
+    <string name="pref_max_approb_title">Minimum score passing</string>
+    <string name="pref_n_dec_title">Number of decimals</string>
+    <string name="pref_n_dec_summary">Number of decimals</string>
+
+    <string name="about_app">About Zcores</string>
+    <string name="about_description">With Zcores, you can get calculated califications from linear scores, using the approbal percentage system.</string>
+    <string name="about_author">Ezequiel Zink</string>
+    <string name="about_contact">ezequiel.zink@gmail.com</string>
+    <string name="about_purchase">Thank you for purchasing the Pro version, and support the development of this and other applications.</string>
+
+
+
+</resources>

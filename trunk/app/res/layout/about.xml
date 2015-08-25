@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/light_gray">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_card" android:id="@+id/linearLayout1">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:id="@+id/titleTextView" android:gravity="center" android:layout_gravity="center"
+                android:textColor="@color/dusk" android:textSize="32sp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/versionTextView" android:layout_gravity="center" android:textColor="@color/dusk"
+                android:text="vX.XX"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView" android:background="@drawable/logo" android:layout_gravity="center"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_description"
+                    android:id="@+id/textView" android:autoText="false"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:background="@drawable/bg_card"
+                  android:id="@+id/linearLayout"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginLeft="16dp"
+                  android:layout_marginRight="16dp"
+                  android:layout_marginTop="0dp"
+                  android:layout_marginBottom="16dp"
+                  android:layout_below="@+id/linearLayout1">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_purchase"
+                android:id="@+id/thanksTextView" android:layout_gravity="center" android:gravity="center|fill_horizontal"
+                android:textStyle="italic"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="@string/about_author" android:id="@+id/authorTextView" android:layout_gravity="right"
+                  android:gravity="center|fill_horizontal" android:textStyle="italic"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="@string/about_contact" android:id="@+id/contactTextView" android:layout_gravity="right"
+                  android:gravity="center|fill_horizontal" android:textSize="12dp"/>
+    </LinearLayout>
+</RelativeLayout>
+

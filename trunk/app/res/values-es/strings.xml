@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zcores</string>
+    <string name="hint_input">Ingrese el puntaje..</string>
+    <string name="clear_button_text">Limpiar</string>
+    <string name="settings_button_text">Configuración</string>
+    <string name="about_button_text">Acerca de</string>
+    <string name="close_button_text">Cerrar</string>
+    <string name="pref_calculation">Configuración de cálculo</string>
+    <string name="pref_ideal_score_summary">Puntaje Ideal a lograr</string>
+    <string name="pref_ideal_score_title">Puntaje ideal</string>
+    <string name="pref_req_per_summary">Porcentaje de aprobación reuqerido</string>
+    <string name="pref_req_per_title">Porcentaje requerido</string>
+    <string name="pref_min_approb_summary">Puntaje maximo</string>
+    <string name="pref_min_approb_title">Maximo puntaje alcanzado</string>
+    <string name="pref_max_approb_summary">Puntaje requerido para aprobar</string>
+    <string name="pref_max_approb_title">Minimo puntaje alcanzado</string>
+    <string name="pref_n_dec_title">Número de decimales</string>
+    <string name="pref_n_dec_summary">Número de decimales</string>
+
+    <string name="about_app">Acerca de Zcores </string>
+    <string name="about_description">Con Zcores, usted puede calcular la nota final obtenida, usando el sistema de aprobación por porcentaje requerido.</string>
+    <string name="about_author">Ezequiel Zink</string>
+    <string name="about_contact">ezequiel.zink@gmail.com</string>
+    <string name="about_purchase">Gracias opr adquirir la versión Pro, y apoyar el desarrollo de ésta, y otras aplicaciones.</string>
+</resources>
